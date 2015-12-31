@@ -41,3 +41,25 @@ rm - Deletes a file
 help - Displays the built-in help manual for specific commands, including help itself
 
 # Forking and Cloning
+
+
+
+Instructions for creating a new repository:
+
+First, navigate to your GitHub profile page. In the upper right corner, there will be a "+" icon. Clicking on this gives you the option to create a new repository - select that. This will take you to a new page with several options. Your repository will need a name, which can be supplemented with a description. Repositories can also be set to public or private depending on if you would like others to view your repository. Finally, you may select an open source license for your project if you choose to have one. Once you are satisfied with all options, click on "Create Repository" at the bottom of the page. This will take you to your newly created repository.
+
+Instructions for forking an existing repository:
+
+Navigate to the repository you wish to fork. You can determine if this repository belongs to you by checking the repository address for your username - an existing repository should not include your name. Click on the "Fork" button in the upper right. This will bring up a pop-up where you can select the destination - for these purposes, you would select your own profile. Once selected, you will automatically be navigated to your own copy of the repository. You can check this by looking for your username in the address.
+
+Instructions for cloning a repo:
+
+Find the URL for the repository on the repo page. Copy this to the clipboard. From the command line, navigate to the folder where you wish to clone the repo. Once there, enter the following command:
+
+git clone [Repo URL]
+
+Once entered, the repo will be cloned to that location. After the process is complete, you can check by using the ls command. A new folder containing the repo should be present.
+
+Forking a repository allows you to add or modify existing code. For collaborating on projects, or using another piece of code as a starting point, you would prefer to do this than create a brand new repository and reinvent work that has already been completed.
+
+This whole process was new to me, and I learned how to navigate GitHub and repositories, how to successfully fork them, and how to clone them with minimal referencing of the tutorials. Personally, I had no issues accessing the GitHub repositories and getting them successfully forked and cloned to my computer. Each repository is now stored in a local phase-0 folder. I found this interface to be easy to understand and the process to be fairly straightforward. 
