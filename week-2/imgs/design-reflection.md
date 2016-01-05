@@ -4,18 +4,18 @@
 
 The six phases of web design are as follows:
 
-**1.	Information Gathering  **
-	Understanding the purpose of your website, considering the audience you are trying to target, and the end goal you are trying to achieve.
-**2.	Planning  **
-	Building a site map to understand the basic skeleton your website will follow.
-**3.	Design  **
-	Creating the look and feel of the website by using layouts, colors, and fonts to build a strong identity.
-**4.	Development  **
-	Turning the graphic elements from the design phase into a functional website by adding code and content management systems.
-**5.	Testing and Delivery  **
-	Ensuring that the website meets the latest standards for web development, checking the code for validation to these standards, and optimizing the site for search engines. The files are then transferred to the client's server.
-**6.	Maintenance  **
-	The continual update of the site over time to keep information and content up-to-date.
+1.	Information Gathering  
+	*Understanding the purpose of your website, considering the audience you are trying to target, and the end goal you are trying to achieve.*
+2.	Planning  
+	*Building a site map to understand the basic skeleton your website will follow.*
+3.	Design  
+	*Creating the look and feel of the website by using layouts, colors, and fonts to build a strong identity.*
+4.	Development  
+	*Turning the graphic elements from the design phase into a functional website by adding code and content management systems.*
+5.	Testing and Delivery  
+	*Ensuring that the website meets the latest standards for web development, checking the code for validation to these standards, and optimizing the site for search engines. The files are then transferred to the client's server.*
+6.	Maintenance  
+	*The continual update of the site over time to keep information and content up-to-date.*
 
 ## What is your site's primary goal or purpose? What kind of content will your site feature?
 
