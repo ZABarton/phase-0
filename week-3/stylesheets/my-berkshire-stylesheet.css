@@ -1,0 +1,128 @@
+body {
+  color: #000080;
+  background-color: #ffffff;
+}
+
+a {
+  color: #800080; 
+}
+
+a:visited {
+  color: #ff0000;
+}
+
+section {
+	border-bottom: 1px solid #000;
+}
+
+header {
+	border-bottom: 1px solid #000;
+}
+
+#columns {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  margin-top: 5px;
+  padding-bottom: 10px;
+}
+
+#geico {
+	text-align: center;
+	font-size: 12px;
+}
+
+#geico img {
+	display: block;
+	margin: auto;
+}
+
+ul {
+	margin-top: 0px;
+}	
+
+ul p {
+	font-size: 0.75em;
+	margin-top: 3px;
+
+}
+
+li {
+	margin-top: 10px;
+}
+
+header p {
+	font-weight: bold;
+	text-align: center;
+}
+
+#title1 {
+	font-size: 24px;
+}
+
+#address {
+	font-size: 12px;
+}
+
+#address2 {
+	font-size: 12px;
+}
+
+#inc {
+	font-size: 16px;
+}
+.caps {
+	font-size: 36px;
+}
+
+.heading {
+	display: block;
+}
+
+#copy {
+	font-size: 10px;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+/*
+What is important to know when linking an external file (like a stylesheet) to an HTML file?
+
+To link an external file, you need to use a link tag somewhere nested within the head tag. The link tag has three properties:
+type, relation, and location (href). Type specifies what the type of file is you are linking to, relation specifies how the 
+linked document is related to the current one, and the location specifies the file path for the linked file.
+
+What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
+
+We had two different versions of the site to work with. My pair and I created a section with one single unordered list that was not split into columns.
+My partner and his pair had already created a 1x2 table with two unordered lists, forming two columns. Formatting the single unordered list into
+two columns was not that difficult. We learned of the columns property and set it to 2, which split the section into two equal columns. A trick we learned
+was the -webkit and -moz prefixes to make the display work in different browsers. By itself, the columns property wouldn't work in Chrome without using
+the -webkit prefix. Styling everything else was kind of a guess and check effort. We weren't sure what our changes would do, but we learned a trick about
+modifying the CSS in the browser using the Dev Tools in Chrome and view the results in real time. Once we played with the numbers and properties to 
+achieve the desired effect, we could commit those changes into the actual CSS file.
+
+What CSS did you use to modify the element style (like size, color, etc.)
+
+We used a lot of different properties. color and background-color were used to modify the text and page colors, respectively. padding and margin properties
+were used to add and modify spacing between elements. font-size was used to change the size of the font, and font-weight was used to add bold formatting to
+the text. We learned the columns property to split the section into multiple columns, and we learned about the different prefixes to use for different browsers.
+Finally, we used the bottom-border property to apply the horizontal lines between sections.
+
+Did you modify the HTML to include classes or ids? If so, which did you choose and why? If you didn't, how would you know which one to add to your HTML?
+
+We added a lot of classes and ids to our HTML. We had multiple sections in between the header and footer, so each section had its own ID and we would modify
+them as needed. For instance, the column property listed above was only applied to the section with the links, so our CSS selector was directed
+specifically to that section ID. We also used a lot of spans to add line breaks with the CSS, and we wanted to reuse that function. So we created a class
+of span that would specifically make that text display as a block instead of an inline element. IDs are great for differentiating unique sections, but
+classes are better served for repeated functions throughout the page.
+
+When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?
+
+I feel like modifying the style through a separate CSS file is the best practice, because of the ease of maintenance. If we wanted to make any changes to
+the style on the original site, we would have to dig through the HTML to find the exact property that needs changing and make sure we could change it
+without breaking the HTML. We would also have to make the same change multiple times, because each styling tag in the HTML is only applied to that specific
+element, not the entire page.
+*/
