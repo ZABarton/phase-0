@@ -48,6 +48,6 @@ This was a great refresher. I kind of set aside Ruby after clearing the intervie
 
 # Challenge Links
 
-[Defining Variables](./defining-variables.rb)
-[Simple String Methods](./simple-string.rb)
-[Local Variables and Basic Arithmetical Operations](./basic-math.rb)
+[Defining Variables](./defining-variables.rb)  
+[Simple String Methods](./simple-string.rb)  
+[Local Variables and Basic Arithmetical Operations](./basic-math.rb)  
