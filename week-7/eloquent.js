@@ -69,7 +69,7 @@ console.log(number)
 // will throw an error because you are referring to a variable that doesn't actually exist.
 
 // Write your own variable and do something to it in the eloquent.js file.
-//
+
 var number = 5
 number *= 2
 console.log(number)
@@ -86,8 +86,8 @@ console.log(number)
 // in the Chrome console (Links to an external site.) rather than node since node does not support 
 // prompt or alert). Paste your program into the eloquent.js file.
 
-// prompt("What's your favorite food?")
-// console.log("Hey, that's my favorite too!")
+prompt("What's your favorite food?")
+console.log("Hey, that's my favorite too!")
 
 // Describe while and for loops
 //
@@ -108,22 +108,22 @@ console.log(number)
 // Complete at least one of the exercises (Looping a Triangle, FizzBuzz, of Chess Board) in the eloquent.js file.
 //
 // Looping Triangle
-// row = "#";
-// while(row.length <= 7) {
-// 	console.log(row);
-// 	row += "#";
-// }
+row = "#";
+while(row.length <= 7) {
+	console.log(row);
+	row += "#";
+}
 
-// // FizzBuzz
-// for (var counter = 1; counter <= 100; counter++)
-// 	if (counter % 3 == 0 && counter % 5 == 0)
-// 		console.log("FizzBuzz");
-// 	else if (counter % 3 == 0)
-// 		console.log("Fizz");
-// 	else if (counter % 5 == 0)
-// 		console.log("Buzz");
-// 	else
-// 		console.log(counter);
+// FizzBuzz
+for (var counter = 1; counter <= 100; counter++)
+	if (counter % 3 == 0 && counter % 5 == 0)
+		console.log("FizzBuzz");
+	else if (counter % 3 == 0)
+		console.log("Fizz");
+	else if (counter % 5 == 0)
+		console.log("Buzz");
+	else
+		console.log(counter);
 
 // Chessboard
 
