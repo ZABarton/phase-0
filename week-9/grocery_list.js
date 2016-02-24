@@ -81,14 +81,14 @@ var masterList = {
 	//  }
 	// }
 
-console.log(masterList);
-masterList.add("a", 1);
-console.log(masterList);
-masterList.add("b", 2);
-masterList.add('c', 3);
-console.log(masterList);
-masterList.remove("b");
-console.log(masterList);
-masterList.remove("d");
-masterList.update("e", 5);
-console.log(masterList);
+// console.log(masterList);
+// masterList.add("a", 1);
+// console.log(masterList);
+// masterList.add("b", 2);
+// masterList.add('c', 3);
+// console.log(masterList);
+// masterList.remove("b");
+// console.log(masterList);
+// masterList.remove("d");
+// masterList.update("e", 5);
+// console.log(masterList);
